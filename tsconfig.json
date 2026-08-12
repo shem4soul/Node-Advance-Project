@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Target and Environment */
+    "target": "ES2022" /* Set JavaScript version for emitted output */,
+    "module": "NodeNext" /* Specify module code generation style */,
+    "moduleResolution": "NodeNext" /* Choose how modules get resolved */,
+
+    /* Directories */
+    "rootDir": "./src" /* Specify the root folder of your source files */,
+    "outDir": "./dist" /* Redirect output structure to the directory */,
+
+    /* Strictness & Safety */
+    "strict": true /* Enable all strict type-checking options */,
+    "noImplicitAny": true /* Error on expressions and declarations with an implied 'any' type */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports */,
+    "types": ["node"],
+
+    /* Compatibility & Optimization */
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules */,
+    "skipLibCheck": true /* Skip type checking of declaration files (*.d.ts) */
+  },
+  "include": ["src/**/*"] /* Files to include in compilation */,
+  "exclude": ["node_modules", "dist"] /* Files to ignore during compilation */
+}
