@@ -24,4 +24,5 @@ Easy way to remember:
 
 dependencies = needed when app is running
 devDependencies = needed while developing or building
+
 runtime packages = packages active when the app runs
