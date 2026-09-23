@@ -22,6 +22,6 @@ npm install --save-dev nodemon
 
 Easy way to remember:
 
-dependencies = needed to run
-devDependencies = needed to develop
+dependencies = needed when app is running
+devDependencies = needed while developing or building
 runtime packages = packages active when the app runs
