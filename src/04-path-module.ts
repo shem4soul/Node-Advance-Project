@@ -22,6 +22,7 @@ const originalName = "profile.photo.png";
 
 // imp-> path.join -> creates a path string
 // it will not create the folder
+// it does not check whether the file exist or not
 
 const uploadFilePath = path.join(
   projectRoot,
@@ -30,3 +31,5 @@ const uploadFilePath = path.join(
   userId,
   originalName,
 );
+
+console.log(uploadFilePath);
